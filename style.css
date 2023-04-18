@@ -1,0 +1,135 @@
+body {
+    font-size: 15px;
+    color: #CF4520; /*this is the font colour for the whole page unless specified elsewhere*/
+    font-family: "owners-narrow", Arial, Helvetica, sans-serif; /*This is the fonts used for my page, and if a font is missing or cant be loaded it defults to the next one in the list, with it ending with a font every computer has*/
+    text-align:center ;
+      background-color:#041E42;
+  }
+  
+  marquee{
+  font-size: 50px;
+  color:#CF4520
+  }
+
+  h1 {
+    font-family: "owners", sans-serif;
+    font-weight: 700; 
+    font-style: normal;; /*This code sets the font style for just the "H1" family*/
+  }
+
+  h2 {font-family: "owners", sans-serif;
+    font-weight: 500;
+    font-style: italic; }
+
+    h3 {font-family: "owners", sans-serif;
+      font-weight: 400;
+      font-style: normal;
+    color: #FFFFFF; } 
+
+ .car {
+    width: 100%; 
+    height: auto;
+  } /* this makes it so that images in the "car" class are 100% of the screen*/
+
+  .video {
+    width: 1520px;
+    max-width: auto;
+    height: auto;
+  }
+  
+  .ac {
+    width: 1500px;
+    max-width: 100%;
+    height: auto;
+  }
+  
+.me {
+  float:none;        
+  width:450px;         
+  margin:0 auto; 
+  height: auto;
+  max-width: 100% ;
+padding: 1Vw; 
+}
+
+.photography {
+  float:none;        
+  width:500px;         
+  margin:0 auto;
+padding: 5px;
+}
+
+
+article {
+  float:none;        
+  width:auto;         
+  margin:0 auto; 
+  text-align: center;
+  padding: 0.1vw;
+  padding-top: 1vh;
+  padding-bottom: 10px;
+  font-family: "owners-narrow", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+} 
+
+footer {
+  text-align: center;
+}
+
+
+.Descrpition {
+  text-align: left;
+  font-size: 2vh;
+}
+
+  .navigation {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    
+    list-style: none;
+    margin: 0; 
+    background-image: linear-gradient(to right, #BC2029 , #FFCD00);  /*this is the rest of the code for the navagation bar at the top of my page*/
+  }
+  
+  .navigation a {
+    text-decoration: none;
+    display: block;
+    padding: 1em;
+    color: white;
+  }
+  
+  .navigation a:hover {
+    background: #C69214; /*this is so that when i hover over the options they turn blue, this is so you know what you are pressing before you press it*/
+  }
+  
+
+    
+    .navigation a { 
+      text-align: center; 
+      padding: 10px;
+      border-top: 1px solid rgba(255, 255, 255,0.3); 
+      border-bottom: 1px solid rgba(0, 0, 0, 0.1); 
+    }
+    .navigation li:last-of-type a {
+      border-bottom: none;
+    }
+
+    .menu {
+      font-size: 16;
+    }
+
+    .text {
+
+      font-size: 2vh;
+    }
+
+    .tiktok{
+      max-height: 1000px;
+    }
+
+
+
+
+
